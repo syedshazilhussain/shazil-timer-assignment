@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pomodoro">
+        <div class="row">
+
+        </div>
+          
+        <div id="clock" class="row">
+          <div class="timer"><div class="middle"></div></div>
+        </div>
+        <input type="number" name="" id="timerInput" placeholder="Enter The Timer Value">
+        <div class="row" id="statRow">
+          <div id="stats">
+            <h3 id="doubleZero">00</h3>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row" id="btns">
+            <button onclick="timerStart()" class="btn btn-default btn-lg" id="start">start</button>
+            <button onclick="timerStop()" class="btn btn-default btn-lg" id="stop">stop</button>
+            <button onclick="timerClear()" class="btn btn-default btn-lg" id="clear">clear</button>
+          </div>
+        </div>
+           
+      </div>
+    <script src="app.js"></script>      
+</body>
+</html>
